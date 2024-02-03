@@ -57,4 +57,30 @@ The information provided in the paper pertains to the percentages of solids, aqu
 
 ## 2 Results from this study
 
+<div align="center">
+  
+#### Optimized Parameters
+
+| Parameter | Value from the paper | Value from this study |
+|-----------|----------------------|-----------------------|
+| k1_p      | 0.2                  | 0.1172                |
+| k2_p      | 0.13                 | 0.1880                |
+| k1_1      | 0.35                 | 0.3101                |
+| k2_1      | 0.4                  | 0.1353                |
+| k1_c      | 0.35                 | 0.1588                |
+| k2_c      | 0.0001               | 0.1627                |
+| k4        | 0.12                 | 0.0245                |
+| k5        | 0.0004               | 0.0000                |
+| k3        | 0.14                 | 0.0321                |
+| k6        | 0.0002               | 0.0017                |
+
+</div>
+
+
+
+<div align="center">
+  <img src="ODE_output.png" alt="data" width="400">
+  <p style="font-weight:bold;"> Figure 3. Experimental Data vs. My fit </p>
+</div>
+
 
