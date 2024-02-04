@@ -78,7 +78,7 @@ Table 2. Fitted parameters vs. reported in the paper
 
 </div>
 
-Figure 3. Shows the comparison between the experimental data, the fitted parameters in this study and the fitting presented on the paper:
+Figure 3. Shows the comparison between the experimental data, the fitted parameters in this study and the fitting presented on the paper. It can be observed that the prediction of the parameters reported in the paper is not the most correct for the aqueous phase and the biocrude compared to the data.
 
 <div align="center">
   <img src="ODE_output.png" alt="data" width="400">
@@ -100,6 +100,8 @@ Parameters $k_{3}$ and $k_{4}$ are the ones that most affect the variable:
   <p style="font-weight:bold;"> Figure 4. Experimental Data vs. fit </p>
 </div>
 
+Based on prior experience, I've found that separating the aqueous phase and the biocrude is often difficult due to their intermingling after the reaction. This challenge is highlighted by the reaction network scheme in Figure 1, where k3 and k4 represent the reaction constants governing these phases. Consequently, it's understandable that these constants exert a significant influence on the final product even with small changes.
+
 #### 2.2.2 Global sensitivity analysis
 
 How the biocrude yield reacts now to bigger changes  (25%) ?
@@ -108,3 +110,4 @@ How the biocrude yield reacts now to bigger changes  (25%) ?
   <img src="globalsensitivity2.png" alt="data" width="400">
   <p style="font-weight:bold;"> Figure 5. Experimental Data vs. fit </p>
 </div>
+
