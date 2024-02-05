@@ -61,7 +61,7 @@ The information provided in the paper pertains to the percentages of solids, aqu
   | Ash           | 3       |
 </div>
 
-## 2 Results
+## 2. Results
 
   
 #### 2.1 Optimized Parameters (rate constants)
@@ -69,7 +69,7 @@ The information provided in the paper pertains to the percentages of solids, aqu
 <div align="center">
 Table 2. Fitted parameters vs. reported in the paper
 
-| Parameter | Value from the paper | Value obtained this study |
+| Parameter | Value from the paper $min^{-1}$ | Value obtained this study $min^{-1}$ |
 |-----------|----------------------|-----------------------|
 | k1_p      | 0.2                  | 0.1172                |
 | k2_p      | 0.13                 | 0.1880                |
@@ -90,7 +90,13 @@ Figure 3. Shows the comparison between the experimental data, the fitted paramet
   <img src="ODE_output.png" alt="data" width="400">
   <p style="font-weight:bold;"> Figure 3. Experimental Data vs. fit </p>
 </div>
+### 2.1 Bifurcation analysis
 
+A bifurcation analysis was performed by solving the system of differential equations and changing the value of $k_{4}$ from 0.0001 to 0.05 $min^{-1}$  
+<div align="center">
+  <img src="bifurcation.png" alt="data" width="400">
+  <p style="font-weight:bold;"> Bifurcation diagram </p>
+</div>
 ### 2.2 Sensitivity analysis
 
 Now, to determine the effect of the parameters on the variables under study, I ran a sensitivity analysis observing the response on the variable $x_{3}$, which is the variable of interest since it represents the biocrude yield.
