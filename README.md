@@ -1,4 +1,10 @@
 # Project 2 ChE 2410 - Hydrothermal Liquefaction of Microalgae
+_Instructor: Dr. Jason Shoemaker_
+
+_Student: Valentina Beltrán_
+
+Chemical Engineering PhD program at Swanson School of Engineering- University of Pittsburgh
+
 ## Overview
 This project aims to replicate and expand upon the study titled "A general kinetic model for the hydrothermal liquefaction of microalgae" by Peter J. Valdez, Vincent J. Tocco, and Phillip E. Savage, published in the Bioresource Journal in 2014. The primary focus is on developing a mathematical model based on two or more differential equations to describe the hydrothermal liquefaction process of microalgae, as proposed in the referenced paper.
 
@@ -107,7 +113,29 @@ Based on prior experience, I've found that separating the aqueous phase and the 
 How the biocrude yield reacts now to bigger changes  (25%) ?
 
 <div align="center">
-  <img src="globalsensitivity2.png" alt="data" width="400">
-  <p style="font-weight:bold;"> Figure 5. Experimental Data vs. fit </p>
+  <img src="globalsensitivity2.png" alt="data" style="width:400px; display:inline-block; margin-right:20px;">
+  <img src="regression.JPG" alt="data" style="width:400px; display:inline-block;">
 </div>
 
+
+Based on the linear regression results it can be observed that $k_{1,p}$ , $k_{2,p}$, $k_{1,1}$, and $k_{2,1}$ are not significant parameters, therefore, our final equation for the normalized sensitivity will be:
+
+$y$ = 0.1084* $k_{1,c}$  -0.1090* $k_{2,c}$  +0.5451* $k_{4}$  -0.5335* $k_{3}$ -0.0888* $k_{6}$
+
+The set of parameters encountered is valid in the range of +/- 25% of variation.
+
+### 3. Conclusions
+
+* Through optimization techniques, the study obtained rate constants for various reactions involved in the hydrothermal liquefaction process. A comparison between the fitted parameters from this study and those reported in the literature revealed discrepancies, particularly in the aqueous phase and biocrude predictions. This highlights the importance of experimentally derived parameters tailored to specific microalgae species.
+* A sensitivity analysis was conducted to investigate the effects of parameter variations on the biocrude yield, a crucial output of the hydrothermal liquefaction process. Both local and global sensitivity analyses were performed, revealing that reaction constants (e.g., $k_{3}$ and $k_{4}$) significantly influence biocrude yield. Moreover, a global sensitivity analysis identified the most influential parameters and their respective impact on the biocrude yield within a specified range of variation.
+* The developed mathematical model and the insights gained from the sensitivity analysis have practical implications for the optimization of hydrothermal liquefaction processes. By understanding the key parameters influencing biocrude yield, researchers and engineers can fine-tune process conditions to enhance biocrude production efficiency.
+
+### 4. Future work
+
+The study identified challenges associated with separating the aqueous phase and biocrude, indicating the complexity of the reaction network and the need for precise parameter estimation. Future research could focus on refining the model to account for these challenges and improving the accuracy of parameter predictions.
+
+### 5. References
+
+Valdez, P. J., Tocco, V. J., & Savage, P. E. (Year). A general kinetic model for the hydrothermal liquefaction of microalgae. *Journal Name*, Volume(Issue), Page range.
+
+Contact: vvb8@pitt.edu
