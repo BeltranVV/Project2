@@ -144,6 +144,6 @@ The study identified challenges associated with separating the aqueous phase and
 
 ### 5. References
 
-Valdez, P. J., Tocco, V. J., & Savage, P. E. (Year). A general kinetic model for the hydrothermal liquefaction of microalgae. *Journal Name*, Volume(Issue), Page range.
+Valdez, P. J., Tocco, V. J., & Savage, P. E. (2014). A general kinetic model for the hydrothermal liquefaction of microalgae. *Bioresource Technology*.
 
 Contact: vvb8@pitt.edu
