@@ -90,18 +90,20 @@ Figure 3. Shows the comparison between the experimental data, the fitted paramet
   <img src="ODE_output.png" alt="data" width="400">
   <p style="font-weight:bold;"> Figure 3. Experimental Data vs. fit </p>
 </div>
-### 2.1 Bifurcation analysis
+
+### 2.2 Bifurcation analysis
 
 A bifurcation analysis was performed by solving the system of differential equations and changing the value of $k_{4}$ from 0.0001 to 0.05 $min^{-1}$  
 <div align="center">
   <img src="bifurcation.png" alt="data" width="400">
   <p style="font-weight:bold;"> Bifurcation diagram </p>
 </div>
-### 2.2 Sensitivity analysis
+
+### 2.3 Sensitivity analysis
 
 Now, to determine the effect of the parameters on the variables under study, I ran a sensitivity analysis observing the response on the variable $x_{3}$, which is the variable of interest since it represents the biocrude yield.
 
-#### 2.2.1 Local sensitivity analysis 
+#### 2.3.1 Local sensitivity analysis 
 
 How the biocrude yield reacts to a 1% change in the parameters?
 
@@ -114,7 +116,7 @@ Parameters $k_{3}$ and $k_{4}$ are the ones that most affect the variable:
 
 Based on prior experience, I've found that separating the aqueous phase and the biocrude is often difficult due to their intermingling after the reaction. This challenge is highlighted by the reaction network scheme in Figure 1, where k3 and k4 represent the reaction constants governing these phases. Consequently, it's understandable that these constants exert a significant influence on the final product even with small changes.
 
-#### 2.2.2 Global sensitivity analysis
+#### 2.3.2 Global sensitivity analysis
 
 How the biocrude yield reacts now to bigger changes  (25%) ?
 
